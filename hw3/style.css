@@ -1,0 +1,142 @@
+body
+{
+    background-image: url(https://www.randomactsofkindness.org/assets/science_of_kindness/science-9859886419e5b055024c898b32e70521d05ec98f819092722805a5364139b3bc.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    color: black;
+}
+h2 {
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    color:  rgb(25, 0, 255);
+}
+h3 {
+    font-size: 25px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: green;
+}
+nav {
+    border: 5px;
+    border-color: black;
+    border-style: ridge;
+    border-radius: 40px;
+    padding: 1%;
+    margin: auto;
+}
+article {
+    border: 5px;
+    border-color: black;
+    border-style: ridge;
+    border-radius: 40px;
+    padding: 1%;
+    margin-top: 50px;
+}
+.link a {
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1;
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 3px;
+    color: rgb(0, 30, 128);
+    text-shadow:
+        0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 8px #fff,
+        0 0 16px rgb(0, 238, 255),
+        0 0 32px rgb(0, 225, 255),
+        0 0 64px rgb(0, 238, 255);
+}
+.link a:after {
+    display: block;
+    content: "";
+    height: 5px;
+    width: 0%;
+    background-color: rgb(0, 195, 255);
+    box-shadow:
+        0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 8px rgb(0, 247, 255),
+        0 0 16px rgb(0, 238, 255),
+        0 0 32px rgb(0, 238, 255);
+    transition: width 0.9s ease-in-out;
+}
+.link a:hover:after,
+.link a:focus:after {
+    width: 100%;
+}
+
+.link a:hover {
+    color: rgb(0, 217, 255);
+    text-shadow:
+        0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 8px #fff,
+        0 0 16px rgb(0, 119, 255),
+        0 0 32px rgb(0, 119, 255),
+        0 0 64px rgb(0, 38, 255);
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 3px;
+    color: rgb(38, 2, 53);
+    text-shadow:
+        0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 8px #fff,
+        0 0 16px rgb(0, 47, 255),
+        0 0 32px rgb(0, 162, 255),
+        0 0 64px rgb(0, 132, 255);
+}
+
+article {
+    border: 5px;
+    border-color: rgb(11, 13, 139);
+    border-style: ridge;
+    border-radius: 40px;
+    padding: 1%;
+    margin-top: 50px;
+}
+
+.video {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+nav li {
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgb(236, 162, 0);
+    text-shadow:
+        0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 8px #fff,
+        0 0 16px rgb(238, 255, 0),
+        0 0 32px rgb(76, 0, 255),
+        0 0 64px rgb(17, 0, 250);
+}
